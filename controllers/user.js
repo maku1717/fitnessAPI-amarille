@@ -84,5 +84,3 @@ module.exports.retrieveUserDetails = async (req, res) => {
     return errorHandler(error, req, res);
   }
 };
-
-module.exports.getWorkouts = async (req, res) => {};
